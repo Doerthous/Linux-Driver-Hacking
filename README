@@ -1,0 +1,37 @@
+## Linux Driver Hacking
+
+### Environment
+
+- rpi 4b
+- kernel 4.19.97
+
+### Hacking List
+
+### TODO
+
+[] IIO Trigger
+[] Wait Queue
+[] KThread
+
+### Reference
+
+** misc **
+- https://elixir.bootlin.com/linux/latest/source
+- https://github.com/torvalds/linux
+- https://elinux.org/Device_Tree_Reference
+- https://www.kernel.org/doc/html/latest
+
+** device tree **
+- https://elinux.org/Device_Tree_Usage
+
+** gpio **
+- https://blog.csdn.net/Lidroid/article/details/50237251?tdsourcetag=s_pctim_aiomsg
+
+** platform device and driver **
+- https://www.linuxidc.com/linux/2014-03/97756.htm?tdsourcetag=s_pctim_aiomsg
+
+** pinctrl **
+- https://elixir.bootlin.com/linux/latest/source/Documentation/devicetree/bindings/pinctrl/pinctrl-bindings.txt
+- https://www.embedded.com/linux-device-driver-development-the-pin-control-subsystem/
+- https://elixir.bootlin.com/linux/latest/source/include/linux/pinctrl/pinctrl.h
+- https://www.kernel.org/doc/html/latest/driver-api/pinctl.html

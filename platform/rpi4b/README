@@ -1,0 +1,3 @@
+# 加载Overlay
+#   树莓派中的/boot/config.txt添加
+#   dtoverlay=dts-test

@@ -1,0 +1,6 @@
+LINUX_PATH:= /lib/modules/$(shell uname -r)/build
+
+all:
+	make -C $(LINUX_PATH) M=$(shell pwd) modules
+clean:
+	make -C $(LINUX_PATH) M=$(shell pwd) clean
